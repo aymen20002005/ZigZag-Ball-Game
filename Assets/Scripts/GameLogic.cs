@@ -45,6 +45,12 @@ namespace TapTap
             {
                 m_OnGameOver.Invoke();
             }
+
+            // Record a death so AdManager can show an ad every N deaths (default N = 3).
+            if (AdManager.Instance != null)
+            {
+                AdManager.Instance.RecordDeath();
+            }
         }
 
         public void DoMouseClick()
