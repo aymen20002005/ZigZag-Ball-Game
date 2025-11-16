@@ -1,4 +1,4 @@
-# ZigZag-Ball-game
+# ZigZag-Ball-Game
 
 ## Level Generator System
 
